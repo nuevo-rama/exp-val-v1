@@ -77,3 +77,15 @@
 
 1. Requerir al controlador
 2. Referenciar el método del controlador en la ruta
+
+--------------------
+
+## Validación de Formularios
+
+- Utilizaremos Express-Validator, es una librería para Express.
+- Funciona como un middleware.
+- Permitirá validar los campos de los formularios y mostrar mensajes de alerta dependiendo del error resultante de la validación.
+
+1. Instalar la librería ejecutando:
+
+`npm install express-validator`
