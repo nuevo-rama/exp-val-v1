@@ -89,3 +89,13 @@
 1. Instalar la librería ejecutando:
 
 `npm install express-validator`
+
+2. Armar la vista HTML de los formularios
+
+3. Definir la ruta por post para que viaje la información de los formularios
+
+4. Requerimos express-validator {body}
+
+5. Especificamos en un array las validaciones por cada name de los formularios y qué tipo de validación vamos a implementar
+
+6. Pasar la variable con el array de validaciones dentro de la ruta
