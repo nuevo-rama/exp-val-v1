@@ -23,11 +23,11 @@ app.set("view engine", "ejs")
 
 //RUTAS
 const indexRouter = require("./routes/mainRoutes")  
-const productsRouter = require("./routes/productsRoutes")
-const userRouter = require("./routes/userRoutes")
+//const productsRouter = require("./routes/productsRoutes")
+const userRouter = require("./routes/usersRoutes")
 
 //Middleware a nivel aplicación
 //La función se ejecuta cada vez que la aplicación recibe cualquier tipo de solicitud
 app.use("/", indexRouter);
-app.use("/", productsRouter);
+//app.use("/", productsRouter);
 app.use("/", userRouter);
